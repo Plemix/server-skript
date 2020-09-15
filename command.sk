@@ -1,0 +1,9 @@
+# the command node for the skript
+command /server [<world>]:
+# permission node and no permission message
+  permission: server.use
+  permission message: §c§lYOUR SERVER §8» §cPermission message# 
+# makes it so the command works :D
+  trigger:
+    make player execute command "mvtp %arg 1%"
+    send "§c§lYOUR SERVER §8» §aSending you to §e%arg 1%"
