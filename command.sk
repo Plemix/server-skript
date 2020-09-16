@@ -1,3 +1,11 @@
+# NOTE! YOU NEED THE "MESSAGEFILTER" PLUGIN IN ORDER TO MAKE A ERROR MESSAGE!
+# COMMAND FOR ERROR MESSAGE: /msgfilter add serverError
+#                            /msgfilter set serverError type EQUAL
+#                            /msgfilter set serverError input error message it gives you (use colors based on the message to work)
+#                            /msgfilter set serverError output &cYou can't use this! (it can be any messge you want :D)
+#
+# YOU ALSO NEED MULTIVERSE-CORE TO MAKE THE COMMAND WORK!
+
 # the command node for the skript
 command /server [<world>]:
 # permission node and no permission message
